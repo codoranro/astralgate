@@ -1,0 +1,13 @@
+
+config 'gate'
+	option 'enabled' '0'
+	option 'mode' 'switch'
+	option 'secret' 'dfltpass'
+	option 'hostname' 'no-ip'
+	option 'keeper' '127.0.0.1'
+
+config 'keeper'
+	option 'enabled' '0'
+	option 'secret' 'dfltpass'
+	option 'storage' '/etc/keeper'
+

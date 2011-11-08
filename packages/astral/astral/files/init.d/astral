@@ -1,0 +1,63 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2011 OpenWrt.org
+
+START=98
+GATEBIN=/usr/sbin/tincd
+GATEPID=/var/run/astral-tincd.pid
+KEEPERBIN=/usr/bin/rsync
+KEEPERPID=/var/run/rsyncd.pid
+SYNCERSCRIPT=/usr/lib/astral/syncer.lua
+SYNCERPID=/var/run/astral-syncer.pid
+SSD=start-stop-daemon
+
+gateenabled=`uci get astral.@gate[0].enabled`
+keeperenabled=`uci get astral.@keeper[0].enabled`                                                          
+		
+
+start_gate() {
+	[ "${gateenabled}" -eq 0 ] && return 1
+	if [ ! -f /etc/tinc/astral/rsa_key.priv ]; then
+	   /usr/lib/astral/gate-utils.sh generate_keys
+	fi
+	/usr/lib/astral/gate-utils.sh sync_hosts
+	/usr/lib/astral/gate-utils.sh generate_config
+	$SSD -p $GATEPID -S -x $GATEBIN -- -n astral --pidfile $GATEPID --logfile /tmp/log/astral_tincd.log
+	$SSD -p $SYNCERPID -S -x lua $SYNCERSCRIPT
+}
+
+stop_gate() {
+        $SSD -p $SYNCERPID -K -s 9
+	$SSD -p $GATEPID -K
+}
+
+reload_gate() {
+	[ "${enabled}" -eq 0 ] && return 1
+	/usr/lib/astral/gate-utils.sh generate_config
+	$SSD -p $GATEPID -s HUP -K
+}
+
+
+start_keeper() {
+	[ "${keeperenabled}" -eq 0 ] && return 1
+	sleep 2
+	/usr/lib/astral/keeper-utils.sh generate_config
+	$SSD -p $KEEPERPID -S -x $KEEPERBIN -- --daemon --config=/tmp/astral-keeper-rsyncd.conf
+}
+
+stop_keeper() {
+	$SSD -p $KEEPERPID -K
+}
+
+start() {
+	start_keeper
+	start_gate
+}
+
+stop() {
+	stop_gate
+	stop_keeper
+}
+
+reload() {
+	reload_gate
+}

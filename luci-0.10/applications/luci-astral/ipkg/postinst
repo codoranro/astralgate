@@ -1,0 +1,6 @@
+#!/bin/sh
+[ -n "${IPKG_INSTROOT}" ] || {
+	( . /etc/uci-defaults/luci-astral ) && rm -f /etc/uci-defaults/luci-astral
+	/etc/init.d/astral enabled || /etc/init.d/astral enable
+	exit 0
+}
