@@ -373,6 +373,9 @@ $(eval $(call application,p910nd,p910nd - Printer server module,\
 $(eval $(call application,astral,astral - VPN/VDS,\
 	+luci-mod-admin-full +PACKAGE_luci-app-astral:astral))
 
+$(eval $(call application,mjpg-streamer,mjpg-streamer - WebCam,\
+	+luci-mod-admin-full +PACKAGE_luci-app-mjpg-streamer:mjpg-streamer))
+
 $(eval $(call application,ushare,uShare - UPnP A/V & DLNA Media Server,\
 	+luci-mod-admin-full +PACKAGE_luci-app-ushare:ushare))
 

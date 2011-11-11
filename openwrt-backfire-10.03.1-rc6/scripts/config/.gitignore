@@ -1,1 +1,8 @@
 *.o
+/conf
+/lex.zconf.c
+/lxdialog/lxdialog
+/mconf
+/mconf_check
+/zconf.hash.c
+/zconf.tab.c
