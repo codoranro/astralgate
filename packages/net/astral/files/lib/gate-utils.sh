@@ -29,9 +29,9 @@ gate_sync_hosts() {
                 sed "/^Address=.*/d" -i /etc/tinc/astral/rsa_key.pub
                 echo "Address=$hostname" >> /etc/tinc/astral/rsa_key.pub
             fi
-	rsync /etc/tinc/astral/rsa_key.pub rsync://astralgate@$keeper:/hosts/$UID --password-file=/tmp/keeper-secret
+	rsync /etc/tinc/astral/rsa_key.pub rsync://astralgate@$keeper:/hosts/$UID --password-file=/tmp/keeper-secret -c
         fi
-	rsync rsync://astralgate@$keeper:/hosts/* /etc/tinc/astral/hosts/ --password-file=/tmp/keeper-secret
+	rsync rsync://astralgate@$keeper:/hosts/* /etc/tinc/astral/hosts/ --password-file=/tmp/keeper-secret -c
 	rm /tmp/keeper-secret
 }
 
