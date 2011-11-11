@@ -1,0 +1,9 @@
+src-svn packages svn://svn.openwrt.org/openwrt/branches/packages_10.03.1
+#src-svn xwrt http://x-wrt.googlecode.com/svn/branches/backfire_10.03/package
+src-link luci ../../luci-0.10/contrib/package/
+src-link astralgate ../../packages/
+#src-svn phone svn://svn.openwrt.org/openwrt/feeds/phone
+#src-svn efl svn://svn.openwrt.org/openwrt/feeds/efl
+#src-svn desktop svn://svn.openwrt.org/openwrt/feeds/desktop
+#src-svn xfce svn://svn.openwrt.org/openwrt/feeds/xfce
+#src-link custom /usr/src/openwrt/custom-feed
