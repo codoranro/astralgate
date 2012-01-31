@@ -26,9 +26,6 @@ s:option(Flag, "enabled", translate("enable")).rmempty = false
 s:option(Value, "secret", translate("Secret")).rmempty = false
 s:option(Value, "hostname", translate("Hostname")).rmempty = false
 s:option(Value, "keeper", translate("Keeper")).rmempty = false
-mode = s:option(ListValue, "mode",translate("Mode"))
-mode:value("switch", translate("switch"))
-mode:value("router", translate("router"))
 
 s = m:section(TypedSection, "keeper", translate("Keeper"))
 s.addremove = false

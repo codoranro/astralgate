@@ -37,13 +37,11 @@ gate_sync_hosts() {
 
 gate_generate_config() {
 	local enabled
-	local mode
 	config_get_bool enabled $1 enabled
-	config_get mode $1 mode
 	[ "${enabled}" -eq 0 ] && return 1
 	echo "Device = /dev/net/tun" > /tmp/astral-tinc.conf
 	echo "Interface = astral" >> /tmp/astral-tinc.conf
-	echo "Mode = $mode" >> /tmp/astral-tinc.conf
+	echo "Mode = switch" >> /tmp/astral-tinc.conf
 	echo "Name = $UID" >> /tmp/astral-tinc.conf
 	for host in $(ls /etc/tinc/astral/hosts/); do
 	if [ "$host" != "$UID" ]; then
