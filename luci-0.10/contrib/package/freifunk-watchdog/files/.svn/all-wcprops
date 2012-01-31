@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/6693/luci/branches/luci-0.10/contrib/package/freifunk-watchdog/files
+END
+freifunk-watchdog.init
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/6693/luci/branches/luci-0.10/contrib/package/freifunk-watchdog/files/freifunk-watchdog.init
+END

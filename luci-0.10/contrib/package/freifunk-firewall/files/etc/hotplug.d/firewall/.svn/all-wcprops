@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/7810/luci/branches/luci-0.10/contrib/package/freifunk-firewall/files/etc/hotplug.d/firewall
+END
+23-restricted-wan
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/7810/luci/branches/luci-0.10/contrib/package/freifunk-firewall/files/etc/hotplug.d/firewall/23-restricted-wan
+END

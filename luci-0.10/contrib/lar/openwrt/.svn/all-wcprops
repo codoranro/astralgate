@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/6693/luci/branches/luci-0.10/contrib/lar/openwrt
+END
+050-lar-source-loader.patch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/6693/luci/branches/luci-0.10/contrib/lar/openwrt/050-lar-source-loader.patch
+END

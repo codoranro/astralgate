@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/7482/luci/branches/luci-0.10/modules/admin-core/root/etc/init.d
+END
+luci_fixtime
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/7482/luci/branches/luci-0.10/modules/admin-core/root/etc/init.d/luci_fixtime
+END
+luci_dhcp_migrate
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/6693/luci/branches/luci-0.10/modules/admin-core/root/etc/init.d/luci_dhcp_migrate
+END

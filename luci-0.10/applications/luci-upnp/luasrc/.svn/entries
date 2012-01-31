@@ -1,0 +1,37 @@
+10
+
+dir
+8215
+http://svn.luci.subsignal.org/luci/branches/luci-0.10/applications/luci-upnp/luasrc
+http://svn.luci.subsignal.org
+
+
+
+2011-10-30T03:02:41.734410Z
+7850
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ab181a69-ba2e-0410-a84d-ff88ab4c47bc
+
+model
+dir
+
+controller
+dir
+
+view
+dir
+

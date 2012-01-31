@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/7810/luci/branches/luci-0.10/contrib/package/freifunk-common/files/usr/sbin
+END
+ff_olsr_watchdog
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/7810/luci/branches/luci-0.10/contrib/package/freifunk-common/files/usr/sbin/ff_olsr_watchdog
+END
+ff_rdate
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/7810/luci/branches/luci-0.10/contrib/package/freifunk-common/files/usr/sbin/ff_rdate
+END

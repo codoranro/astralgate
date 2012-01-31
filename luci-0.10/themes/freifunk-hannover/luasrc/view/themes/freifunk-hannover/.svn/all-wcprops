@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7810/luci/branches/luci-0.10/themes/freifunk-hannover/luasrc/view/themes/freifunk-hannover
+END
+header.htm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/7810/luci/branches/luci-0.10/themes/freifunk-hannover/luasrc/view/themes/freifunk-hannover/header.htm
+END
+footer.htm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/7810/luci/branches/luci-0.10/themes/freifunk-hannover/luasrc/view/themes/freifunk-hannover/footer.htm
+END

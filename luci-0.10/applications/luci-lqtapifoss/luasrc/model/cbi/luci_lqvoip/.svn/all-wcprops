@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-lqtapifoss/luasrc/model/cbi/luci_lqvoip
+END
+config.lua
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-lqtapifoss/luasrc/model/cbi/luci_lqvoip/config.lua
+END
+contact.lua
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-lqtapifoss/luasrc/model/cbi/luci_lqvoip/contact.lua
+END
+account.lua
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-lqtapifoss/luasrc/model/cbi/luci_lqvoip/account.lua
+END

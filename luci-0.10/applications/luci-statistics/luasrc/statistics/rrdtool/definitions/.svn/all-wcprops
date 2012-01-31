@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-statistics/luasrc/statistics/rrdtool/definitions
+END
+interface.lua
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-statistics/luasrc/statistics/rrdtool/definitions/interface.lua
+END
+netlink.lua
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-statistics/luasrc/statistics/rrdtool/definitions/netlink.lua
+END
+processes.lua
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-statistics/luasrc/statistics/rrdtool/definitions/processes.lua
+END
+wireless.lua
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-statistics/luasrc/statistics/rrdtool/definitions/wireless.lua
+END

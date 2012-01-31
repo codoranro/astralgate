@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/8193/luci/branches/luci-0.10
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/6693/luci/branches/luci-0.10/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/6693/luci/branches/luci-0.10/LICENSE
+END
+THANKYOU
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/6693/luci/branches/luci-0.10/THANKYOU
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/6693/luci/branches/luci-0.10/.project
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/6693/luci/branches/luci-0.10/.gitignore
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/6693/luci/branches/luci-0.10/INSTALL
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/6693/luci/branches/luci-0.10/.cproject
+END
+.buildpath
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/6693/luci/branches/luci-0.10/.buildpath
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/7038/luci/branches/luci-0.10/Makefile
+END

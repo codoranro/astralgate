@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/ppp/luasrc/model/cbi/admin_network
+END
+proto_ppp.lua
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/ppp/luasrc/model/cbi/admin_network/proto_ppp.lua
+END
+proto_pppoa.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/ppp/luasrc/model/cbi/admin_network/proto_pppoa.lua
+END
+proto_pppoe.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/ppp/luasrc/model/cbi/admin_network/proto_pppoe.lua
+END

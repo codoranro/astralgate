@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/7810/luci/branches/luci-0.10/themes/openwrt.org-oxygen/luasrc/view/themes/openwrt.org-oxygen
+END
+header.htm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/7810/luci/branches/luci-0.10/themes/openwrt.org-oxygen/luasrc/view/themes/openwrt.org-oxygen/header.htm
+END
+footer.htm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/7810/luci/branches/luci-0.10/themes/openwrt.org-oxygen/luasrc/view/themes/openwrt.org-oxygen/footer.htm
+END
+indexer.htm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/6693/luci/branches/luci-0.10/themes/openwrt.org-oxygen/luasrc/view/themes/openwrt.org-oxygen/indexer.htm
+END
+dashboard.htm
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/6693/luci/branches/luci-0.10/themes/openwrt.org-oxygen/luasrc/view/themes/openwrt.org-oxygen/dashboard.htm
+END

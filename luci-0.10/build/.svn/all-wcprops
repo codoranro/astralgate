@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/7882/luci/branches/luci-0.10/build
+END
+setup.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/7038/luci/branches/luci-0.10/build/setup.lua
+END
+lucid.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/6693/luci/branches/luci-0.10/build/lucid.lua
+END
+zoneinfo2lua.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/6693/luci/branches/luci-0.10/build/zoneinfo2lua.pl
+END
+mkversion.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7038/luci/branches/luci-0.10/build/mkversion.sh
+END
+cbi2uvl.lua
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/6693/luci/branches/luci-0.10/build/cbi2uvl.lua
+END
+gccconfig.mk
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/6693/luci/branches/luci-0.10/build/gccconfig.mk
+END
+i18n-po2lua.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/7043/luci/branches/luci-0.10/build/i18n-po2lua.pl
+END
+i18n-lua2po.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/7038/luci/branches/luci-0.10/build/i18n-lua2po.pl
+END
+i18n-init.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7810/luci/branches/luci-0.10/build/i18n-init.sh
+END
+module.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/7451/luci/branches/luci-0.10/build/module.mk
+END
+luci.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/6693/luci/branches/luci-0.10/build/luci.cgi
+END
+mkbasepot.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7810/luci/branches/luci-0.10/build/mkbasepot.sh
+END
+makedocs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/6693/luci/branches/luci-0.10/build/makedocs.sh
+END
+hostenv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/7038/luci/branches/luci-0.10/build/hostenv.sh
+END
+i18n-update.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/6693/luci/branches/luci-0.10/build/i18n-update.pl
+END
+i18n-scan.pl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/7882/luci/branches/luci-0.10/build/i18n-scan.pl
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/6693/luci/branches/luci-0.10/build/config.mk
+END

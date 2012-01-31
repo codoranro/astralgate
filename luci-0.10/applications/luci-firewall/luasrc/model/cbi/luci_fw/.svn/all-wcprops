@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/8099/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw
+END
+rrule.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7339/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw/rrule.lua
+END
+trule.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7038/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw/trule.lua
+END
+zone.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/8099/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw/zone.lua
+END
+miniportfw.lua
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/6693/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw/miniportfw.lua
+END
+zones.lua
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/7269/luci/branches/luci-0.10/applications/luci-firewall/luasrc/model/cbi/luci_fw/zones.lua
+END

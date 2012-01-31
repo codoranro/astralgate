@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/pptp/luasrc/model/cbi/admin_network
+END
+proto_pptp.lua
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/7873/luci/branches/luci-0.10/protocols/pptp/luasrc/model/cbi/admin_network/proto_pptp.lua
+END
