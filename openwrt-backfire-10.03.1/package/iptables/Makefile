@@ -168,6 +168,54 @@ iptables extensions for matching/changing IP packet options.
 
 endef
 
+define Package/iptables-mod-webmon
+$(call Package/iptables/Module, +kmod-ipt-webmon)
+  TITLE:=webmon matching support
+endef
+
+define Package/iptables-mod-webmon/description
+iptables extensions enable webmon matching support
+
+ Matches:
+  - webmon
+endef
+
+define Package/iptables-mod-weburl
+$(call Package/iptables/Module, +kmod-ipt-weburl)
+  TITLE:=weburl matching support
+endef
+
+define Package/iptables-mod-weburl/description
+iptables extensions enable weburl matching support
+
+ Matches:
+  - weburl
+endef
+
+define Package/iptables-mod-bandwidth
+$(call Package/iptables/Module, +kmod-ipt-bandwidth)
+  TITLE:=bandwidth matching support
+endef
+
+define Package/iptables-mod-bandwidth/description
+iptables extensions enable bandwidth matching support
+
+ Matches:
+  - bandwidth
+endef
+
+define Package/iptables-mod-timerange
+$(call Package/iptables/Module, +kmod-ipt-timerange)
+  TITLE:=timerange matching support
+endef
+
+define Package/iptables-mod-timerange/description
+iptables extensions enable timerange matching support
+
+ Matches:
+  - timerange
+endef
+
 define Package/iptables-mod-ipsec
 $(call Package/iptables/Module, +kmod-ipt-ipsec)
   TITLE:=IPsec extensions
@@ -482,6 +530,10 @@ $(eval $(call BuildPlugin,iptables-mod-conntrack-extra,$(IPT_CONNTRACK_EXTRA-m))
 $(eval $(call BuildPlugin,iptables-mod-extra,$(IPT_EXTRA-m)))
 $(eval $(call BuildPlugin,iptables-mod-filter,$(IPT_FILTER-m),$(L7_INSTALL)))
 $(eval $(call BuildPlugin,iptables-mod-hashlimit,$(IPT_HASHLIMIT-m)))
+$(eval $(call BuildPlugin,iptables-mod-weburl,$(IPT_WEBURL-m)))
+$(eval $(call BuildPlugin,iptables-mod-webmon,$(IPT_WEBMON-m)))
+$(eval $(call BuildPlugin,iptables-mod-bandwidth,$(IPT_BANDWIDTH-m)))
+$(eval $(call BuildPlugin,iptables-mod-timerange,$(IPT_TIMERANGE-m)))
 $(eval $(call BuildPlugin,iptables-mod-imq,$(IPT_IMQ-m)))
 $(eval $(call BuildPlugin,iptables-mod-ipopt,$(IPT_IPOPT-m)))
 $(eval $(call BuildPlugin,iptables-mod-ipsec,$(IPT_IPSEC-m)))
