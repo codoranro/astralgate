@@ -33,7 +33,7 @@ endef
 $(eval $(call KernelPackage,ipt-core))
 
 define KernelPackage/ipt-webmon
-  SUBMENU:=$(NF_MENU)
+$(call KernelPackage/ipt/Depends,)
   TITLE:=Netfilter webmon
   KCONFIG:=$(KCONFIG_IPT_WEBMON)
   FILES:=$(foreach mod,$(IPT_WEBMON-m),$(LINUX_DIR)/net/$(mod).$(LINUX_KMOD_SUFFIX))
@@ -50,7 +50,7 @@ $(eval $(call KernelPackage,ipt-webmon))
 
 
 define KernelPackage/ipt-weburl
-  SUBMENU:=$(NF_MENU)
+$(call KernelPackage/ipt/Depends,)
   TITLE:=Netfilter weburl
   KCONFIG:=$(KCONFIG_IPT_WEBURL)
   FILES:=$(foreach mod,$(IPT_WEBURL-m),$(LINUX_DIR)/net/$(mod).$(LINUX_KMOD_SUFFIX))
@@ -66,7 +66,7 @@ endef
 $(eval $(call KernelPackage,ipt-weburl))
 
 define KernelPackage/ipt-bandwidth
-  SUBMENU:=$(NF_MENU)
+$(call KernelPackage/ipt/Depends,)
   TITLE:=Netfilter bandwidth
   KCONFIG:=$(KCONFIG_IPT_BANDWIDTH)
   FILES:=$(foreach mod,$(IPT_BANDWIDTH-m),$(LINUX_DIR)/net/$(mod).$(LINUX_KMOD_SUFFIX))
@@ -83,7 +83,7 @@ $(eval $(call KernelPackage,ipt-bandwidth))
 
 
 define KernelPackage/ipt-timerange
-  SUBMENU:=$(NF_MENU)
+$(call KernelPackage/ipt/Depends,)
   TITLE:=Netfilter timerange
   KCONFIG:=$(KCONFIG_IPT_TIMERANGE)
   FILES:=$(foreach mod,$(IPT_TIMERANGE-m),$(LINUX_DIR)/net/$(mod).$(LINUX_KMOD_SUFFIX))
