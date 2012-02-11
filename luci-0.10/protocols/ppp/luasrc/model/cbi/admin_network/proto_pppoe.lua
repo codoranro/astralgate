@@ -14,7 +14,7 @@ local map, section, net = ...
 
 local username, password, ac, service
 local ipv6, defaultroute, metric, peerdns, dns,
-      keepalive_failure, keepalive_interval, demand
+      keepalive_failure, keepalive_interval, demand, macaddr
 
 
 username = section:taboption("general", Value, "username", translate("PAP/CHAP username"))
@@ -121,6 +121,10 @@ end
 keepalive_interval.remove      = keepalive_interval.write
 keepalive_interval.placeholder = "5"
 keepalive_interval.datatype    = "min(1)"
+
+macaddr = section:taboption("advanced", Value, "macaddr", translate("Override MAC address"))
+macaddr.placeholder = ifc and ifc:mac() or "00:00:00:00:00:00"
+macaddr.datatype    = "macaddr"
 
 
 demand = section:taboption("advanced", Value, "demand",
