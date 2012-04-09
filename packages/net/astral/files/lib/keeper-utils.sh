@@ -14,6 +14,7 @@ keeper_generate_config() {
 gid = root
 use chroot = yes
 pid file = /var/run/rsyncd.pid
+log file = /dev/null
 
 [hosts]
 comment = AstralGate hosts
